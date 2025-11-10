@@ -1,0 +1,32 @@
+# .gitignore
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+Build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+
+# Secrets (*** 這是最重要的部分 ***)
+appsettings.Development.json
+*.env
+
+# Other
+.vs/
+.vscode/
+*.props
+*.DS_Store
